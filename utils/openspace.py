@@ -27,10 +27,12 @@ class Openspace:
 
     def display(self):
         for i, table in enumerate(self.tables, start = 1):
-            print(f"Table {i}:")
+            print(f"\nTable {i}:")
             for seat in table.seats:
-                print("  ", seat.occupant or "Empty")
-            print()
+                if seat.free:
+                    print("   [Empty]")
+                else:
+                    print(f"    {seat.occupant}")
 
 
     def store(self,filename):
