@@ -10,7 +10,7 @@ def load_names(new_colleagues):
             names.append(row["name"])
     return names
 
-names = load_names("new_collagues.csv")
+names = load_names("new_colleagues.csv")
 
 office = Openspace(6)
 office.organize(names)

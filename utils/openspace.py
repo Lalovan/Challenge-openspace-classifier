@@ -1,6 +1,7 @@
 # CLASS OPENSPACE:
-from table import Table
 import random
+
+from .table import Table
 
 class Openspace:
     def __init__(self, number_of_tables: int) -> None:
@@ -8,7 +9,6 @@ class Openspace:
         self.number_of_tables= 6
 
     def organize(self, names = None):
-        import random
         
         if names is None:
             names = ["Aleksei","Amine","Anna","Astha","Brigitta",
