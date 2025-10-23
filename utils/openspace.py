@@ -35,12 +35,15 @@ class Openspace:
                     print(f"    {seat.occupant}")
 
 
-    def store(self,filename):
+    def store(self, filename):
         with open(filename, "w") as file:
             for i, table in enumerate(self.tables, start = 1):
                 file.write(f"Table{i}:\n")
                 for seat in table.seats:
-                    file.write(f"  {seat.occupant or "Empty"}\n")
+                    if seat.free:
+                        file.write("       [Empty]\n")
+                    else:
+                        file.write(f"  {seat.occupant}\n")
                 file.write("\n")
 
     
