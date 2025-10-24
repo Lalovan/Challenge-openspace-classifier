@@ -36,18 +36,17 @@ Follow these steps to run the script:
 1.**Clone the repository**  
    First, clone this repository to your local machine, using the command below:
 
-   ```bash
-   git clone https://github.com/Lalovan/Challenge-openspace-classifier.git
- 
+```bash
+`git clone https://github.com/Lalovan/Challenge-openspace-classifier.git
+```
 2.**Run the script**
    To run the script, execute the `main.py` file from your command line:
 
-    ```bash
-    python main.py
-
+```bash
+`python main.py
+```
 3.**Output**
 The script reads your input file, and organizes your colleagues to random seat assignments. The resulting seating plan is displayed in your console and also saved to an "output.csv" file in your root directory.
-
 
 ## ⏳ Timeline
 Thsi project took a day and a half for completion.
