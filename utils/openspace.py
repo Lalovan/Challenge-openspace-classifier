@@ -25,6 +25,7 @@ class Openspace:
                     table.assign_seat(name)
                     break
 
+# this method has integrated the __str__ method, which is a separate method in Classes Seat and Table
     def display(self):
         for i, table in enumerate(self.tables, start = 1):
             print(f"\nTable {i}:")
@@ -36,14 +37,14 @@ class Openspace:
 
 
     def store(self, filename):
-        with open(filename, "w") as file:
-            for i, table in enumerate(self.tables, start = 1):
-                file.write(f"Table{i}:\n")
-                for seat in table.seats:
+        with open(filename, "w") as file: #Open a gile to write to
+            for i, table in enumerate(self.tables, start = 1): #Go through each table and give it a number
+                file.write(f"Table{i}:\n") #Write a header for the table
+                for seat in table.seats: #Go through all seats at the table
                     if seat.free:
-                        file.write("       [Empty]\n")
+                        file.write("       [Empty]\n") #Writes "Empty" if free 
                     else:
-                        file.write(f"  {seat.occupant}\n")
-                file.write("\n")
+                        file.write(f"  {seat.occupant}\n") #Writes occupant name if not free
+                file.write("\n") #Adds a blank line between tables
 
     
