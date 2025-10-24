@@ -22,11 +22,11 @@ Below is the project structure:
 ├── output.csv
 ├── dev_notebook.ipynb
 ├── .gitignore
-├── utils/
-│ ├── init.py
-│ ├── file_utils.py
-│ ├── openspace.py
-│ └── table.py
+└── utils/
+├── init.py
+├── file_utils.py
+├── openspace.py
+└── table.py
 
 
 ## 📲 Usage
