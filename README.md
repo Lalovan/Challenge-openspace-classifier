@@ -15,6 +15,7 @@ The project is implemented in Python and uses object-oriented principles (OOP) w
 ## 🧱 Repository Structure
 
 Below is the project structure: 
+```
 .
 ├── main.py
 ├── README.md
@@ -27,7 +28,7 @@ Below is the project structure:
 ├── file_utils.py
 ├── openspace.py
 └── table.py
-
+```
 
 ## 📲 Usage
 
@@ -37,13 +38,13 @@ Follow these steps to run the script:
    First, clone this repository to your local machine, using the command below:
 
 ```bash
-`git clone https://github.com/Lalovan/Challenge-openspace-classifier.git
+git clone https://github.com/Lalovan/Challenge-openspace-classifier.git
 ```
 2.**Run the script**
    To run the script, execute the `main.py` file from your command line:
 
 ```bash
-`python main.py
+python main.py
 ```
 3.**Output**
 The script reads your input file, and organizes your colleagues to random seat assignments. The resulting seating plan is displayed in your console and also saved to an "output.csv" file in your root directory.
