@@ -4,10 +4,10 @@
 
 This project is the first one in my portfolio as an AI & Data Scientist! 🚀 
 The project automates the assignment of people to random seats across multiple tables in an openspace, allowing to:
-  -organize colleagues randomly across tables;
-  -select the number of seats per table and the number of tables;
-  -display the seating arrangement in the console;
-  -save the seating arrangement to a .csv file (or else) for record-keeping.
+  - organize colleagues randomly across tables;
+  - select the number of seats per table and the number of tables;
+  - display the seating arrangement in the console;
+  - save the seating arrangement to a .csv file (or else) for record-keeping.
 
 The project is implemented in Python and uses object-oriented principles (OOP) with classes for "Seat", "Table", and "Openspace".
 
@@ -54,5 +54,5 @@ Thsi project took a day and a half for completion.
 
 ## 📌
 This project was done as part of the AI Boocamp at BeCode.org.
-Connect with me on [LinkedIn](www.linkedin.com/in/anna-lalova).
+Connect with me on [LinkedIn](https://www.linkedin.com/in/anna-lalova).
  
