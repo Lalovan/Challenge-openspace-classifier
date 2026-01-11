@@ -1,5 +1,7 @@
 # Seating Arrangement Script 
 
+[![forthebadge](https://forthebadge.com/images/badges/made-with-python.svg)](https://forthebadge.com)
+
 ## 🏢 Description ℹ️
 
 This project is the first one in my portfolio as an AI & Data Scientist! 🚀 
@@ -50,9 +52,6 @@ python main.py
 The script reads your input file, and organizes your colleagues to random seat assignments. The resulting seating plan is displayed in your console and also saved to an "output.csv" file in your root directory.
 
 ## ⏳ Timeline
-Thsi project took a day and a half for completion.
-
-## 📌
-This project was done as part of the AI Boocamp at BeCode.org.
+Thsi project took a day and a half for completion. It was done as part of the AI Boocamp at BeCode.org.
 Connect with me on [LinkedIn](https://www.linkedin.com/in/anna-lalova).
  
